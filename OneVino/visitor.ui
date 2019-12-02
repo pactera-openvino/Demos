@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Visitor</class>
+ <widget class="QDialog" name="Visitor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>33</pointsize>
+    <kerning>false</kerning>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Dialog</string>
+  </property>
+  <property name="accessibleName">
+   <string notr="true"/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Visitor{ background-image: url(:/bt/image/visitor_bg.png);}</string>
+  </property>
+  <widget class="QLabel" name="video">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>135</y>
+     <width>1181</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(46, 52, 54);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableView" name="DetailView">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>820</y>
+     <width>1195</width>
+     <height>216</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="TotalView">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>122</y>
+     <width>618</width>
+     <height>636</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Ubuntu&quot;;
+background:transparent;</string>
+   </property>
+  </widget>
+  <widget class="QChartView" name="SexChart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>820</y>
+     <width>301</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;</string>
+   </property>
+  </widget>
+  <widget class="QChartView" name="EmChart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1586</x>
+     <y>820</y>
+     <width>321</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QWidget</extends>
+   <header>qchartview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

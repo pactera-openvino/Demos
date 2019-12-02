@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/bt">
+        <file>image/Login_bg_point.png</file>
+        <file>image/Login_bg_version1.png</file>
+        <file>image/lab_normal.png</file>
+        <file>image/lab_pressed.png</file>
+        <file>image/meeting_normal.png</file>
+        <file>image/visitor_normal.png</file>
+        <file>image/reg_normal.png</file>
+        <file>image/bg.png</file>
+        <file>image/car.png</file>
+        <file>image/conference.png</file>
+        <file>image/industry.png</file>
+        <file>image/user.png</file>
+        <file>image/info.png</file>
+        <file>image/car_hover.png</file>
+        <file>image/conference_hover.png</file>
+        <file>image/industry_hover.png</file>
+        <file>image/info_hover.png</file>
+        <file>image/user_hover.png</file>
+        <file>image/visitor_bg.png</file>
+        <file>image/meeting_bg.png</file>
+        <file>image/reg_bg.png</file>
+        <file>image/cancel.png</file>
+        <file>image/cancel_hover.png</file>
+        <file>image/save.png</file>
+        <file>image/save_hover.png</file>
+        <file>image/addmeeting_bg.png</file>
+        <file>image/left.png</file>
+        <file>image/left hover.png</file>
+        <file>image/right.png</file>
+        <file>image/right hover.png</file>
+        <file>image/industry_bg.png</file>
+        <file>image/choosefile.png</file>
+        <file>image/choosefile_hover.png</file>
+        <file>image/licplate_bg.png</file>
+        <file>image/playback_bg.png</file>
+    </qresource>
+</RCC>
