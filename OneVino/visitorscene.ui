@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>visitorscene</class>
+ <widget class="QDialog" name="visitorscene">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#visitorscene{ border-image: url(:/bt/image/visitor_bg.png);}</string>
+  </property>
+  <widget class="QLabel" name="video">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>130</y>
+     <width>1181</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(46, 52, 54);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableView" name="TotalView">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>130</y>
+     <width>601</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(52, 101, 164);</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="DetailView">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>825</y>
+     <width>1181</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;Ubuntu&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QChartView" name="EmChart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1566</x>
+     <y>820</y>
+     <width>321</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 215, 207);</string>
+   </property>
+  </widget>
+  <widget class="QChartView" name="SexChart" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>820</y>
+     <width>291</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 215, 207);</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QWidget</extends>
+   <header>qchartview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddMeeting</class>
+ <widget class="QDialog" name="AddMeeting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加会议</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#AddMeeting{ background-image: url(:/bt/image/addmeeting_bg.png);}</string>
+  </property>
+  <widget class="QListView" name="TotalList">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>178</y>
+     <width>175</width>
+     <height>185</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QListView" name="MeetingList">
+   <property name="geometry">
+    <rect>
+     <x>362</x>
+     <y>178</y>
+     <width>175</width>
+     <height>185</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AddPeople">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>250</y>
+     <width>12</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DelPeople">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>280</y>
+     <width>12</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="StartTime">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>120</y>
+     <width>175</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+font: 13pt &quot;Ubuntu&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>64</y>
+     <width>88</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="EndTime">
+   <property name="geometry">
+    <rect>
+     <x>362</x>
+     <y>120</y>
+     <width>175</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+font: 13pt &quot;Ubuntu&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="MeetingPlaceEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>64</y>
+     <width>175</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
